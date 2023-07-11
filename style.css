@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato;
+}
+
+button{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 12px 25px;
+    border: 0;
+    background: #E55473;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.title{
+    margin-bottom: 25px;
+    font-size: 2rem;
+    text-align: center;
+}
+.description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+    /* --------------- header_section ----------- */
+/* ---------------- banner_section_start_here ----------------------- */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 120px 50px 50px;
+    background: rgba(229, 84, 115, 0.10);
+    margin-bottom: 100px;
+}
+header > img{
+    width: 450px;
+}
+.header_content{
+    padding: 100px 50px;
+}
+.header_content > h1{
+    color: #272727;
+    font-size: 4.4rem;
+    margin-bottom: 25px;
+}
+.header_content > p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+/* ---------------- banner_section_end_here ----------------------- */
+
+
+              /* --------------- main_section --------------- */
+/* ------------------- Featured_Flowers_section_start_here ---------------- */
+
+.featured_Flowers{
+    padding: 20px 0;
+    margin: 100px 100px;
+}
+.featured_flowers_photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.feature figcaption{
+    text-decoration: underline;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.flower{
+    margin: 0 15px;
+    width: 280px;
+    height: 360px;
+    padding: 70px 23px 0 23px;
+    background-color: aqua;
+    border-radius: 300px 300px 0px 0px;
+}
+.flower_1{
+    background: rgba(167, 33, 98, 0.15);
+}
+.flower_2{
+    background: rgba(5, 151, 160, 0.15);
+}
+.flower_3{
+    background: rgba(71, 125, 17, 0.15);
+}
+
+
+
+/* ------------------- Featured_Flowers_section_end_here ---------------- */
+
+
+
+/* ------------------- hot_deal_section_start_here ---------------------- */
+
+.hot_deal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 180px;
+    margin-bottom: 130px;
+}
+.hot_deal_content{
+    padding: 50px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.hot_deal > img{
+    padding: 50px;
+    margin-left: 10px;
+}
+/* ------------------- hot_deal_section_end_here ---------------------- */
+
+/* --------------------- instagram_section_start_here --------------- */
+.instagram{
+    padding: 50px 0;
+    margin: 0 100px 130px 120px;
+}
+.instagram_photo{
+    text-align: center;
+}
+.instagram_photo > img{
+    width: 250px;
+    margin: 0 10px;
+}
+/* --------------------- instagram_section_end_here --------------- */
+
+/* --------------------- customer_review_section_start_here --------------- */
+.customers{
+    margin-bottom: 130px;
+    /* padding: 30px;     */
+}
+
+.customers img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 3px solid #eb4b6e
+}
+.customer_review{
+    
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 0 20px;
+    
+}
+.review{
+    text-align: center;
+    margin: 0 10px;
+}
+.review :last-child{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8rem;
+}
+
+/* --------------------- customer_review_section_end_here --------------- */
+
+/* ----------------------- subscribe_section_start_here ------------------ */
+.subscribe_container{
+    padding: 50px;
+    margin: 0 100px 130px 100px;
+}
+
+.subscribe{
+    background-image: url('Flower asset/Rectangle 9.png');
+    padding: 50px 50px;
+    text-align: center;
+    
+    
+}
+input{
+    border: 0;
+    width: 50%;
+    padding: 16px 30px;
+    margin-right: 10px;
+}
+input:focus{
+    outline: none;
+}
+/* ----------------------- subscribe_section_end_here ------------------ */
+
+
+/* ----------------------- footer_section_start_here ------------------ */
+
+footer{
+  padding: 60px 50px;
+  background: #111010;
+  text-align: center;
+}
+footer  h3{
+    color: white;
+}
+footer > h3 > span{
+    color: #E55473
+}
+footer :nth-child(2){
+    color: rgba(255, 255, 255, 0.90);
+    line-height: 26px
+}
+footer :last-child{
+    color: rgba(255, 255, 255, 0.40);
+}
+
+/* ----------------------- footer_section_end_here ------------------ */
